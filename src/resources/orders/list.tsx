@@ -33,7 +33,6 @@ const OrderList: React.FC = (props) => {
         <TextField source="id" label="Reference Id" />
         <DateField source="createdAt" label="Date" />
         <NumberField source="grossAmount" />
-        <NumberField source="payPalFee" />
         <StatusField source="paymentStatus" />
         <StatusField source="orderStatus" />
       </Datagrid>

@@ -18,7 +18,6 @@ export const ORDER_FRAGMENT = gql`
     _id
     createdAt
     grossAmount
-    payPalFee
     paymentStatus
     orderStatus
   }
